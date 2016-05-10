@@ -1,0 +1,25 @@
+ article {
+      text-align: center;
+    }
+figcaption{
+	font-size: 16px;
+}
+.text{
+	text-align: left;
+
+}
+ol{
+	text-align: left;
+}
+.dog_silka,a{
+	font-size: 19px;
+	color: green;
+}
+a:hover{
+	text-decoration: none;
+
+}
+.footer{
+	     border-bottom: 2px dashed #000;
+}
+
