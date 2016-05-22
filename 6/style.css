@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+nav{
+	margin: 0;
+	padding: 10px 0;
+	width: 100px;
+
+}
+ul{
+	list-style: none;
+	display: block;
+}
+li {
+	width: 100px;
+	height: 50px;
+	border: 2px solid black;
+	background: grey;
+
+}
+a{
+	padding: 10px
+	text-decoration: none
+}
+.sabmenu{
+	position: relative;
+}
+.sabmenu-two-level{
+	position: absolute;
+	top: 0;
+	left: 100px;
+	display: none
+}
+.sabmenu > li:hover > .sabmenu-two-level  {
+  display: block;

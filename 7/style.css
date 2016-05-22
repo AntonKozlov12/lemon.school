@@ -1,0 +1,56 @@
+*{
+	font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+::after,::before{
+	box-sizing: border-box;
+}
+ul{
+	padding-left: 180px;
+	font-size: 40px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: grey;
+
+}
+ul.a> li::before {
+    content: '★';
+    padding: 10px;
+}
+
+ul.b>li::before {
+    content: '❤';
+    padding: 10px;
+}
+
+ul.c>li::before {
+    content: '☀';
+    padding: 10px;
+}
+a.line2[title="с ховером"]:hover{
+   color:red;
+}
+.line::after{
+	content: '';
+    position: relative;
+    top: -2;
+    height: 2px;
+    width: 241px;
+    margin-left: 53px;
+    display: block;
+    background: grey;
+}
+.line2::after{
+	content: '';
+    position: relative;
+	top: -2;
+    height: 2px;
+    width: 376px;
+    margin-left: 53px;
+    display: block;
+    background: grey;
+}

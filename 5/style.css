@@ -70,6 +70,7 @@ footer{
 
 }
 .data-text{
+	line-height: 1.2em;
 	padding-top: 35px;
 	font-size: 16px;
 	color: #4b4b4b;
@@ -80,7 +81,10 @@ footer{
 	width: 100%;
 }
 .team h2{
-	padding: 20px 25px;
+	color: #4b4b4b;
+    padding: 20px 25px;
+    font-family: arial;
+    font-size: 32px;
 }
 .team-add{
 	margin-left: 11px;
