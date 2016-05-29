@@ -32,7 +32,7 @@ ul.c>li::before {
     padding: 10px;
 }
 a.line2[title="с ховером"]:hover{
-   color:red;
+    color:red;
 }
 .line::after{
 	content: '';
@@ -43,6 +43,7 @@ a.line2[title="с ховером"]:hover{
     margin-left: 53px;
     display: block;
     background: grey;
+
 }
 .line2::after{
 	content: '';
