@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+*{
+	margin: 0;
+	padding:0;
+
+}
+form{
+	width: 500px;
+	margin: 10px auto;
+	font-family: 'Open Sans', sans-serif;
+}
+.input{
+	width: 100%;
+	clear: both;
+}
+span.mail, span.cost, span.exampl-url{
+    border-radius: 4px;
+    float: left;
+    padding: 5px 12px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    display: inline-block;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+input{
+
+    display: block;
+	width: 459px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 5px;
+	margin-bottom: 7px;
+	border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+input.exampl{
+    display: block;
+    width: 358px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 7px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    float: left;
+}
+span.exampl, span.cost-last{
+
+    border-radius: 4px;
+    float: left;
+    padding: 5px 12px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    display: inline-block;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+input.cost{
+	float: left;
+    width: 416px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+input.exampl-url{
+	width: 267px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+label{
+	clear: both;
+	display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+button{
+    width: 80px;
+    margin-top: 5px;
+    cursor: pointer;
+    background: none;
+    padding: 5px;
+    border-radius: 6px;
+    height: 40px;
+}

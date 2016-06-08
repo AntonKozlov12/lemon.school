@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+*{
+	margin: 0;
+	padding:0;
+
+}
+form {
+	width: 500px;
+	margin: 10px auto;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 0 20px 40px 0 rgba(0,0,0,0.2);
+	font-family: 'Open Sans', sans-serif;
+}
+span{
+
+}
+input{
+    display: block;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 5px;
+	margin-bottom: 7px;
+}
