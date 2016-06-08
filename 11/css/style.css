@@ -85,4 +85,8 @@ button{
     padding: 5px;
     border-radius: 6px;
     height: 40px;
+    border-color: #ccc
+}
+button:hover{
+	background: #ccc;
 }
