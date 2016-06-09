@@ -25,9 +25,9 @@ span.mail, span.cost, span.exampl-url{
     border-bottom-right-radius: 0;
 }
 input{
-
+	outline:inherit; 
     display: block;
-	width: 459px;
+	width: 460px;
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	padding: 5px;
@@ -35,10 +35,13 @@ input{
 	border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-
+input:focus{
+	box-shadow: 0 0 6px;
+	border-color: #176798;
+}
 input.exampl{
     display: block;
-    width: 358px;
+    width: 360px;
     border: 1px solid #ccc;
     border-radius: 3px;
     padding: 5px;
