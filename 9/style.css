@@ -1,4 +1,5 @@
 @import url("reset.css");
+@import url("normalize.css");
 *{
 	margin: 0;
 	padding: 0;
@@ -54,6 +55,7 @@ header{
 
 }
 .logo-name p{
+	font-weight: 100;
 	color: #23899c;
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
@@ -253,13 +255,19 @@ h4{
 	text-align: center;
 	font-family: 'Playfair Display', serif;
 }
+.expertis-title{
+	width: 100%;
+	margin-bottom: 75px;
+
+}
 h5{
+	font-weight: 700;
 	margin-top: 70px;
 	font-size: 22px;
 }
 .expertis-title p{
-    	font-size: 14px;
-    	margin-top: 15px;
+	font-size: 14px;
+	margin-top: 15px;
 }
 h5:after{
     content: '';
@@ -276,32 +284,80 @@ h5:after{
 	margin: 0 auto;
 	padding:0;
 	width: 100%;
+	padding-bottom: 100px;
 }
-.items:nth-child(1n){
-	border-bottom: 1px solid grey;
+.item-web-float,.item-branding-float,.item-app-float {
+	border-bottom: 1px solid #ebebeb;
 }
-.items:nth-child(2n){
+/*.items:nth-child(2n){
 	border-bottom: 1px solid grey;
 }
 .items:nth-child(3n){
 	border-bottom: 1px solid grey;
-}
-.items:nth-child(2),.items:nth-child(5){
-	border-left: 1px solid grey;
-	border-right: 1px solid grey;
+}*/
+.item-branding-float,.item-game-float{
+	border-left: 1px solid #ebebeb;
+	border-right: 1px solid #ebebeb;
 }
 [class$='-float']{
+	padding-top: 40px;
 	width: 33.33%;
 	height: 250px;
 	float: left;
 }
 [class*='icon-img']{
 	padding-top: 40px;
-	width: 49px;
+	width: 50px;
 	height: 50px;
 	background-image: url(img/item-icon.png);
 	background-position: 0 0;
     margin: 0 auto;
+}
+.web{
+	background-position: 0 0;
+}
+.branding{
+	background-position: -64px 0;
+}
+.app{
+	background-position: 222px 0;
+}
+.serch{
+	background-position: -175px 0;
+}
+.game{
+	background-position: 108px 0;
+}
+.made{
+	background-position: -289px 0;
+}
+h6{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight:700; 	
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 25px;
+	color: #413d4b;
+}
+.item-text{
+	width: 268px;
+    line-height: 1.4em;
+    margin: 0 auto;
+}
+.item-text p{
+	opacity: .75;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight:100; 	
+	text-align: center;	
+}
+
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
 }
 footer{
 	clear: both;
@@ -312,12 +368,122 @@ footer{
 	background-image: url(img/foter-fon.jpg);
     background-size:cover; 
 }
-.gradient-footer{
-	overflow: hidden;
-    width: 100%;
+footer:after{
+	content: '';
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
     height: 398px;
     background: linear-gradient(to right, #1e5799 0%,#207cca 0%,#09052f 0%,#311d5e 100%);
     position: absolute;
     z-index: 3;
-    opacity: 0.75;
+    opacity: 0.75
+}
+.footer-wrap{
+	margin: 0 auto;
+	width: 960px;
+	position: relative;
+	z-index: 5;
+	padding: 0 10px 0 10px;
+}
+.first-footer{
+	margin: 0 auto;
+	padding: 0;
+}
+
+.logo-footer{
+	margin: 0 auto;
+	width: 33.3%;
+	padding-top:70px; 
+	float: left;	
+}
+.footer-fist-line{
+	color: #fff;
+    padding-top: 87px;
+    float: left;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 33.3%;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.two-footer{
+	margin: 0 auto;
+	width: 100%;
+
+}
+.two-footer-text{
+	padding-right: 40px;
+    padding-left: 0px;
+    float: left;
+    width: 33.3%;
+}
+.two-footer-text p{
+	font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+	line-height: 1.6em;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.two-footer-data{
+	padding-right: 20px;
+	padding-left: 10px;
+	float: left;
+	width: 33.3%;
+}
+.adres:before{
+	content: '';
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    background-image: url(img/data-sprite.png);
+    background-position: 3px 0;
+}
+.adres p ,.tel p {
+	font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+	padding-left: 30px;
+    line-height: 1.6em;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.tel:before{
+	content: '';
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    background-image: url(img/data-sprite.png);
+    background-position: -20px 0;
+}
+.soc-media{
+
+    float: left;
+    width: 33.3%;
+}
+.face{
+	display: inline-block;
+	width: 35px ;
+	height: 35px;
+	border:1px solid #fff;
+	border-radius: 50%;
+}
+.footer-bottom{
+	padding-top: 50px;
+	margin:0 auto;
+	width: 100%;
+}
+.footer-bottom-left{
+	float: left;
+}
+.footer-bottom-right{
+	float: right;
+}
+.footer-bottom-right p, .footer-bottom-menu {
+	font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: #fff;
 }
