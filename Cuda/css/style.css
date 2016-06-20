@@ -110,8 +110,8 @@ h1{
 	text-align: center;
 	color: #fff;
 }
-.zag-services{
-	padding-bottom: 50px;
+.zag-services, .zag-about-us{
+	/*padding-bottom: 50px;*/
 }
 h2{
 	font-family: 'Titillium Web', sans-serif;
@@ -120,7 +120,7 @@ h2{
     font-size: 40px;
     letter-spacing: 5px;
 }
-span.second-zag-services:before {
+span.second-zag-services:before ,span.second-zag-about-us:before {
 	content: '';
     width: 85px;
     height: 3px;
@@ -130,7 +130,7 @@ span.second-zag-services:before {
     top: -27px;
     right: 41%;
 }
-span.second-zag-services{
+span.second-zag-services, span.second-zag-about-us{
 	position: relative;
 	margin: 0 auto;
     display: block;
@@ -145,10 +145,7 @@ span.second-zag-services{
 	width: 100%;
 	padding-bottom: 130px;
 }
-.our-servis:after{
-  content: "";
-  display: table;
-  clear: both;
+
 	
 }
 h3{
@@ -201,7 +198,65 @@ h3{
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 100;
 }
+.our-servis:after{
+  content: "";
+  display: table;
+  clear: both;
+  }
+.about-us{
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	background-color: #d74680;
+	text-align: center;
+	color: #fff;
+}
+.people-say-about-us{
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 65px;
+	margin-bottom: 130px;
 
+}
+.people-say-about-us div:nth-child(n+3){
+	margin-top: 150px
+}
+.people-say{
+	width: 50%;
+	float: left;
+}
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+  }
+  .foto{
+  	display: inline-block;
+  	width: 20%
+  }
+ .say-text{
+	font-family: 'Titillium Web', sans-serif;
+    padding-left: 50px;
+    display: inline-block;
+    width: 76%;
+    text-align: left;
+}
+.text{
+	font-size: 21px;
+	font-style: italic;
+}
+.name-about-us{
+	padding-top: 30px;	
+	padding-bottom: 10px;
+  	display: block;
+  	font-family: 'Titillium Web', sans-serif;
+  	font-size: 24px;
+  	font-weight: 600;
+}
+ .under-name{
+	color: #ffdd99;
+  	display: block;
+  }
 .wrap-forma{
 	background-color: #3c5499;
 }
@@ -320,3 +375,24 @@ footer{
 	color: #30bae7;
 }
 
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #95CD8B;
+    border-right-color: #D0E6BB;
+    text-align: center;
+    font: 22px/81px SANS-serif;
+
+}
+.circle1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #95CD8B;
+    border-right-color: #D0E6BB;
+    border-bottom-color: #D0E6BB;
+    text-align: center;
+    font: 22px/81px SANS-serif;
+
+}
