@@ -4,10 +4,15 @@
 	box-sizing: border-box;
 }
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700,600);
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
 .main-wrap{
 	margin: 0 auto;
 	padding: 0;
-	width: 1444px;
+	width: 100%;
 	box-shadow: 0px 0px 2px 1px #000000;
 
 }
@@ -76,7 +81,7 @@ h1{
 	color: #fff;
 	text-align: center;
 	font-size: 41.62px;
-	margin-bottom: 60px;
+	margin-bottom: 80px;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 700;
 }
@@ -140,29 +145,63 @@ span.second-zag-services{
 	width: 100%;
 	padding-bottom: 130px;
 }
-[class$='-float']{
-	padding-top: 40px;
-	width: 25%;
-	float: left;
-}
-[class*='icon-img']{
-	padding-top: 40px;
-	width: 180px;
-	height: 180px;
-	background-image: url(img/servis-sprite.png);
-	background-position: 0 0;
-    margin: 0 auto;
-}
-.rocket{
-	background-position: 0 0;
-}
-
 .our-servis:after{
   content: "";
   display: table;
   clear: both;
 	
 }
+h3{
+	 font-family: 'Titillium Web', sans-serif;
+	 font-size: 24px;
+	 font-weight: 600;
+	 text-transform: uppercase;
+	 padding-bottom: 30px;
+}
+[class$='-float']{
+	padding-top: 80px ;
+	padding-right: 20px;
+	width: 25%;
+	float: left;
+}
+.our-servis div:last-child {
+	padding-right: 0px; 
+}	
+[class*='icon-img']{
+	background: url(../img/servis-sprite.png);
+	margin: 0 auto;
+}
+.branding{
+	width: 120px;
+	height: 130px;
+	background-position: -76 0;
+}
+.design{
+	width: 93px;
+    height: 130px;
+    background-position: -129px 0
+}
+.development{
+	width: 170px;
+    height: 130px;
+    background-position: -230px 0;
+}
+.rocket{
+	width: 120px;
+    height: 130px;
+    background-position: 127px 0;
+}
+.servis-text{
+	padding-top: 60px;
+}
+.servis-text p{
+	padding: 0 20px;
+	line-height: 1.2em;
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 100;
+}
+
 .wrap-forma{
 	background-color: #3c5499;
 }
@@ -277,3 +316,7 @@ footer{
 	font-size: 18px;
 
 }
+.footes-links li a:hover{
+	color: #30bae7;
+}
+
