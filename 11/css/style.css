@@ -9,6 +9,7 @@ form{
 	margin: 10px auto;
 	font-family: 'Open Sans', sans-serif;
 }
+
 .input{
 	width: 100%;
 	clear: both;
@@ -36,6 +37,8 @@ input{
     border-bottom-left-radius: 0;
 }
 input:focus{
+	border-right:#176798;
+	border-right:#176798;
 	box-shadow: 0 0 6px;
 	border-color: #176798;
 }
