@@ -85,7 +85,48 @@
 				</div>
 			</div>
 		</div>
-		
+		<div class="wrap-portfolio">
+			<div class="wrap">
+				<div class="portfolio">
+					<div class="zag-servisces">
+						<h2>OUR PORTFOLIO</h2>
+					</div>
+					<span class="second-zag-portfolio">
+						<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+                            consectetur, adipisci velit, sed quia non numquam
+						</p>
+					</span>
+				</div>
+				<div class="tabs-menu">
+					<ul>
+						<li><a class="tablinks" href="#" onclick="openCity(event, 'all')">all</a></li>
+						<li><a class="tablinks" href="#" onclick="openCity(event, 'web')">web</a></li>
+						<li><a class="tablinks" href="#" onclick="openCity(event, 'apps')">apps</a></li>
+						<li><a class="tablinks" href="#" onclick="openCity(event, 'icon')">icon</a></li>
+					</ul>
+				</div>
+				<div class="wrap-tabcontent">
+					<div id="all" class="tabcontent">
+						<img src="img/tab-all.png" alt="">
+						<p>Isometric Perspective Mock-Up</p>						
+					</div>
+					<div id="web" class="tabcontent">
+						<img src="img/tab-web.png" alt="">
+						<p>Time Zone App UIp</p>
+					</div>
+					<div id="apps" class="tabcontent">
+						<img src="img/tab-apps.png" alt="">
+						<p>Viro Media Players UI</p>
+					</div>
+					<div id="icon" class="tabcontent">
+						<img src="img/tab-icon.png" alt="">
+						<p>Blog / Magazine Flat UI Kit</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>	
+			</div>
+		</div>		
+
 		<div class="about-us">
 			<div class="wrap">
 				<div class="about-us">
@@ -144,8 +185,8 @@
 						</div>
 					</div>
 					<div class="clearfix"></div>
-				<!-- </div> -->
-			</div>
+				</div>
+			<!-- </div> -->
 		</div>
 		<div class="wrap-forma">
 			<div class="wrap">
@@ -186,7 +227,26 @@
 			</div>
 		</footer>
 	</div>	
-</body>
+	<script>
+		function openCity(evt, cityName) {
+		    var i, tabcontent, tablinks;
+		    tabcontent = document.getElementsByClassName("tabcontent");
+		    for (i = 0; i < tabcontent.length; i++) {
+		        tabcontent[i].style.display = "none";
+		    }
+		    tablinks = document.getElementsByClassName("tablinks");
+		    for (i = 0; i < tablinks.length; i++) {
+		        tablinks[i].className = tablinks[i].className.replace(" active", "");
+		    }
+		    document.getElementById(cityName).style.display = "block";
+		    evt.currentTarget.className += " active";
+		}
+</script>
 </html>
-<div class="circle">75%</div>
-<div class="circle1">55%</div>
+<!-- <div class="circle">75%</div>
+<div class="circle1">55% 
+	<span class="border-1"></span>
+	<span class="border-2></span>
+	<span class="border-3"></span>
+	<span class="border-4"></span>
+</div> -->

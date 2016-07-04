@@ -63,6 +63,10 @@ body{
 	background: #643a79;
 	border-radius: 5px;
 }
+.link-nav-menu:focus{
+	background: #643a79;
+	border-radius: 5px;
+}
 .link-nav-menu a{
 	text-transform: uppercase;
 	text-decoration: none;
@@ -102,7 +106,9 @@ h1{
 	border-bottom: none;
 }
 
-.wrap-services, .wrap-forma {
+.wrap-services,
+.wrap-forma, 
+.wrap-portfolio {
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
@@ -113,14 +119,16 @@ h1{
 .zag-services, .zag-about-us{
 	/*padding-bottom: 50px;*/
 }
-h2{
+h2,h4{
 	font-family: 'Titillium Web', sans-serif;
     font-weight: 500;
     padding-top: 120px;
     font-size: 40px;
     letter-spacing: 5px;
 }
-span.second-zag-services:before ,span.second-zag-about-us:before {
+span.second-zag-services:before,
+span.second-zag-about-us:before,
+span.second-zag-portfolio:before {
 	content: '';
     width: 85px;
     height: 3px;
@@ -130,7 +138,9 @@ span.second-zag-services:before ,span.second-zag-about-us:before {
     top: -27px;
     right: 41%;
 }
-span.second-zag-services, span.second-zag-about-us{
+span.second-zag-services,
+span.second-zag-about-us,
+span.second-zag-portfolio{
 	position: relative;
 	margin: 0 auto;
     display: block;
@@ -203,6 +213,54 @@ h3{
   display: table;
   clear: both;
   }
+.wrap-portfolio{
+	background-color: #ffdd99;
+	color: #393939;
+}
+span.second-zag-portfolio{
+	margin-bottom: 45px;
+
+}
+.tabs-menu{
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+.tabs-menu ul li{
+	border-radius: 2px;
+    margin-right: 10px;
+    display: inline-block;
+    background-color: #ebc985;
+}
+
+.tablinks{
+	margin: auto auto;
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding:5px;
+}
+.tablinks:focus, .active {
+    background-color: #fff;
+}
+.tablinks:hover {
+    background-color: #fff;
+}
+.wrap-tabcontent{
+	margin: 0 auto;	
+	width: 100%;
+
+}
+.tabcontent{
+	width: 50%;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+}
+.tabcontent p{
+	padding: 35px 0px 65px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
 .about-us{
 	margin: 0 auto;
 	padding: 0;
@@ -263,12 +321,12 @@ h3{
 .zag-forma{
 	padding-bottom: 20px;
 }
-h4{
+/*h4{
 	font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
     padding-top: 120px;
     font-size: 40px;
-    letter-spacing: 5px;
+    letter-spacing: 5px;*/
 }
 .second-zag-forma p{
 	margin: 0 auto;
@@ -388,11 +446,44 @@ footer{
 .circle1 {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     border: 10px solid #95CD8B;
     border-right-color: #D0E6BB;
     border-bottom-color: #D0E6BB;
     text-align: center;
     font: 22px/81px SANS-serif;
+    position: relative;
 
 }
+.border-1{
+	position: absolute;
+	width: 100px;
+	height: 10px;
+	color: red;
+	background: tomato;
+
+} 
+.border-2{
+	position: absolute;
+	width: 100px;
+	height: 10px;
+	color: red;
+	background: tomato;
+
+} 
+.border-3{
+	position: absolute;
+	width: 100px;
+	height: 10px;
+	color: red;
+	background: tomato;
+
+} 
+.border-4{
+	position: absolute;
+	width: 100px;
+	height: 10px;
+	color: red;
+	background: tomato;
+
+} 
